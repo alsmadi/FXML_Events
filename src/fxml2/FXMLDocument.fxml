@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="438.0" prefWidth="424.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="fxml2.FXMLDocumentController">
+    <children>
+        <Button fx:id="button" layoutX="345.0" layoutY="385.0" onAction="#handleButtonAction" text="Click Me!" />
+      <FlowPane layoutX="26.0" layoutY="29.0" prefHeight="325.0" prefWidth="386.0">
+         <children>
+              <Label fx:id="label" minHeight="16" minWidth="69" prefHeight="50.0" prefWidth="170.0" text="LabelName" />
+            <TextField id="nameField" text="Name" />
+            <Label fx:id="label1" minHeight="16" minWidth="69" prefHeight="50.0" prefWidth="170.0" text="LabelPosition" />
+            <TextField id="departmentField" text="Position" />
+            <Label fx:id="label2" minHeight="16" minWidth="69" prefHeight="50.0" prefWidth="170.0" text="LabelDepartment" />
+            <TextField text="Department" />
+         </children>
+      </FlowPane>
+      <Button layoutX="8.0" layoutY="373.0" mnemonicParsing="false" onAction="#AddMethod" text="Add" />
+      <Button layoutX="56.0" layoutY="373.0" mnemonicParsing="false" onAction="#FirstMethod" text="First" />
+      <Button layoutX="106.0" layoutY="373.0" mnemonicParsing="false" onAction="#SecondMethod" text="Second" />
+      <Button layoutX="164.0" layoutY="373.0" mnemonicParsing="false" text="Next" />
+    </children>
+</AnchorPane>
